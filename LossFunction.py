@@ -77,7 +77,7 @@ def totalCost(solution):
         time += getMinutes(l2[-4], l2[-3])
         meal += (10 * int(l1[-1]))
         meal += (10 * int(l2[-1]))
-    cost = ticket + time + meal
+    cost = ticket + time - meal
     return cost
 
 
